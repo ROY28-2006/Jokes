@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(186, 116, 5);
+}
+
+.wrapper{
+    width: 50vmin;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 20px rgba(0, 0, 0, 0.69);
+    background-color: black;
+    padding: 10px;
+    margin: 50%, 40%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+span{
+    font-size: 50px;
+}
+#joke{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: cursive;
+    text-wrap:inherit;
+    
+}
+button{
+    margin-top: 10px;
+    background-color:rgb(186, 116, 5) ;
+    color: black;
+    padding: 9px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
